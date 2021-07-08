@@ -1,66 +1,69 @@
-body, h1, h2, h3, p ul{
-	margin: 0px;
-	padding: 0px;
+body,
+h1,
+h2,
+h3,
+p ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-color: #ABC7C7;
+  background-color: #ABC7C7;
 }
 
 #wrapper {
-	width: 900px;
-	margin: 30px auto;
-    background-color: white;
+  width: 900px;
+  margin: 30px auto;
+  background-color: white;
 }
 
-#header {
-    
+#header {}
+
+#navbar {
+  background-color: Orange;
 }
 
-    #navbar {
-    background-color: Orange;
-    }
+#navbar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
 
-    #navbar ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    }
+#navbar ul li {
+  float: left;
+}
 
-    #navbar ul li {
-    float: left;
-    }
+#navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-    #navbar ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    }
+#navbar ul li a:hover {
+  text-decoration: underline;
+}
 
-    #navbar ul li a:hover {
-    text-decoration: underline;
-    }
-
-    .active {
-    text-decoration: underline;
-    }
+.active {
+  text-decoration: underline;
+}
 
 #content {
-    margin-right: 250px;
-    min-height: 600px;
-    text-align: justify;
-    padding: 20px;
+  margin-right: 250px;
+  min-height: 600px;
+  text-align: justify;
+  padding: 20px;
 }
 
 .pictures {
-  width: 100%;  
+  width: 100%;
 }
 
-th, td {
-    border: 1px solid black;
+th,
+td {
+  border: 1px solid black;
 }
 
 
@@ -70,9 +73,9 @@ float: right;
 } */
 
 #footer {
-    color: white;
-    padding: 35px;
-    text-align: center;
-    font-size: 15px;
-    background-color: Orange;
+  color: white;
+  padding: 35px;
+  text-align: center;
+  font-size: 15px;
+  background-color: Orange;
 }

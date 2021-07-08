@@ -1,25 +1,25 @@
 h1 {
-    background-color: aqua !important;
+  background-color: aqua !important;
 }
 
 h2 {
-    color: brown;
+  color: brown;
 }
 
 h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 button#Button-Click-me {
-    background-color: black;
-    color: cornflowerblue;
+  background-color: black;
+  color: cornflowerblue;
 }
 
 #Button-Nothing-happens {
-    background-color: cadetblue;
-    color: aliceblue;
-    font-weight: 600;
-    font-style: italic;
+  background-color: cadetblue;
+  color: aliceblue;
+  font-weight: 600;
+  font-style: italic;
 }
 
 /* .green {
@@ -31,26 +31,26 @@ button#Button-Click-me {
 } */
 
 #navbar a {
-    background-color: grey;
-    color: blanchedalmond;
-    text-decoration: none;
-    font-variant-caps: revert;
-    padding: 15px 40px;
-    border-left: solid 1px wheat;
-    font-family: system-ui;
-    cursor: grab;
-    line-height: 60px;
+  background-color: grey;
+  color: blanchedalmond;
+  text-decoration: none;
+  font-variant-caps: revert;
+  padding: 15px 40px;
+  border-left: solid 1px wheat;
+  font-family: system-ui;
+  cursor: grab;
+  line-height: 60px;
 }
 
 #navbar a:hover {
-    background-color: #404040;
-    text-transform: uppercase;
+  background-color: #404040;
+  text-transform: uppercase;
 }
 
-body > div {
-    margin-bottom: 50vh;
+body>div {
+  margin-bottom: 50vh;
 }
 
 #image-training {
-    text-align: center;
+  text-align: center;
 }
