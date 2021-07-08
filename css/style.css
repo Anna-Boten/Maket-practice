@@ -47,7 +47,7 @@ button#Button-Click-me {
     text-transform: uppercase;
 }
 
-body > div {
+body>div {
     margin-bottom: 50vh;
 }
 

@@ -1,4 +1,7 @@
-body, h1, h2, p{
+body,
+h1,
+h2,
+p {
 	margin: 0px;
 	padding: 0px;
 }
@@ -7,12 +10,14 @@ body, h1, h2, p{
 	width: 870px;
 	margin: 0px auto;
 }
+
 #header {
 	min-height: 200px;
 	background: url(./../../assets/maket2/bg.jpg) no-repeat;
 	color: white;
 	position: relative;
 }
+
 #doski {
 	position: absolute;
 	top: 30px;
@@ -33,6 +38,7 @@ body, h1, h2, p{
 	float: left;
 	width: 200px;
 }
+
 #left>div {
 	margin: 20px 0px 0px 10px;
 }
@@ -73,11 +79,11 @@ body, h1, h2, p{
 }
 
 #footer {
-    text-align: center;
-    font-size: 12px;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-bottom: 10px;	
+	text-align: center;
+	font-size: 12px;
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-bottom: 10px;
 }
 
 #menu-button {
@@ -86,7 +92,7 @@ body, h1, h2, p{
 
 #to-main {
 	float: right;
-	}
+}
 
 /* .clearfix{
 	clear: both; /* зачем?*/
