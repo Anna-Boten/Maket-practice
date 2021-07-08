@@ -1,0 +1,92 @@
+body, h1, h2, p{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	width: 870px;
+	margin: 0px auto;
+}
+#header {
+	min-height: 200px;
+	background: url(./../../assets/maket2/bg.jpg) no-repeat;
+	color: white;
+	position: relative;
+}
+#doski {
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	font-size: 27px;
+	font-weight: bold;
+}
+
+#slogan {
+	position: absolute;
+	top: 60px;
+	left: 230px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#left {
+	float: left;
+	width: 200px;
+}
+#left>div {
+	margin: 20px 0px 0px 10px;
+}
+
+#left h2 {
+	font-size: 16px;
+}
+
+#left p {
+	font-size: 13px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.fit-to-text {
+	width: 100%
+}
+
+#content {
+	min-width: 600px;
+	margin-left: 200px;
+	padding: 20px;
+	text-align: justify;
+}
+
+#content h1 {
+	font-size: 21px;
+}
+
+#content h2 {
+	font-size: 19px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#content p {
+	margin: 10px 0px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 10px;	
+}
+
+#menu-button {
+	background-color: aquamarine;
+}
+
+#to-main {
+	float: right;
+	}
+
+/* .clearfix{
+	clear: both; /* зачем?*/

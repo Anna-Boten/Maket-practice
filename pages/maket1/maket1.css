@@ -1,0 +1,120 @@
+body, ul, p, li, h1, h2, h3, h4, h4 {
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	border: 1px solid black;
+	width: 1000px;
+	margin: 0px auto; /* что означает auto? Означает центрирование по горизонтали*/
+}
+
+#header {
+	
+	min-height: 200px; /* почему min-height, а не height? Чтобы ничего не сжало блок */ 
+	position: relative;
+	border-bottom: 1px solid black;
+}
+
+#menu {
+	top: 40px;
+	left: 200px;
+	position: absolute;/* не понимаю почему absolute? Как фикс, но внутри родительского блока с указанием отступов*/
+	border: 1px solid black;    
+}
+
+#menu li {
+	float: left;
+	list-style-type: none;
+}
+
+#menu a:link, #menu a:visited {
+	color: blue;
+	text-decoration: underline;
+	line-height: 30px;
+	padding:  0px 10px;
+}
+
+#menu a:hover, #menu a.active {
+	color: red;
+	text-decoration: underline;
+}
+
+#logo {
+	top: 10px;
+	left: 0px;
+	position: absolute;/* не понимаю почему absolute*/
+
+}
+#logo img {
+	width: 200px;
+}
+
+#sitename {
+	top: 10px;
+	left: 200px;
+	position: absolute;	
+	font-size: 19;
+	font-weight: bold;
+}
+
+#left, #right {
+	width: 200px;
+}
+
+#left {
+float: left;	  
+}
+
+#right {
+	float: right;
+}
+
+#content {
+border: 1px solid black;
+margin: 0px 200px;
+padding: 0px 10px;
+}
+
+#content h1 {
+	
+}
+#content p {
+margin: 10px 0px;
+text-align: justify;
+}
+
+#footer {
+border: 1px solid black;
+text-align: center;
+font-weight: bold;
+padding-top: 170px; /* почему не нужно устанавливать высоту? Т.к. определяется динамически (по остаточному принципу)*/
+height: 20px;
+padding-bottom: 1px;
+}
+
+#menu-button {
+	background-color: aquamarine;
+}
+
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+    line-height: 40px;
+}
+
+.red {
+	background-color: red;
+}
+.yellow {
+	background-color: yellow;
+}
+.green {
+	background-color: green;
+}
+
+#to-main {
+	float: right;
+	background-color: aquamarine;
+}

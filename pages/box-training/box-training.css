@@ -1,0 +1,50 @@
+h1 {
+    text-shadow: 3px 2px Cyan;
+    letter-spacing: 3px;
+    
+}
+
+#main-container {
+    background-color: burlywood;
+    width: 1000px;
+    height: 500px;
+    border: 10px solid rosybrown;
+    border-radius: 25px;
+    padding: 10px;
+    display: none;
+}
+
+#main-container div {
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 15px 0px;
+    padding: 10px;
+}
+
+#main-container #wwf-protected {
+    width: 80%;
+    background-color: darkgray;
+    color: blue;
+    padding: 15px 25px;
+    margin: 35px;
+}
+
+#two-one {
+    margin: 15px 5px;
+    padding: 10px;
+}
+
+.flex-container {
+    background-color: beige;
+    color: blueviolet;
+    display: flex;
+    height: 500px;
+}
+
+.flex-container div {
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 10px; 
+    flex-basis: 30%;
+    height: 50px;
+}
