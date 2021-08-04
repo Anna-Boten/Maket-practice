@@ -109,22 +109,21 @@ a.active {
   text-align: center;
   font-size: 13px;
   color: white;
+  column-gap: 35px;
 }
 
 #footer-menu {
   display: flex;
   min-height: 200px;
-  background-color: #EBEBEB;
-  color: black;
-}
+  column-gap: 15px;
+  }
 
-#footer-menu>div>div {
+#footer-menu>div{
   padding: 10px;
   min-height: 200px;
-  border: solid;
-  border-width: 10px;
-  border-color: black;
-}
+ background-color: #ebebeb;
+ color: black;
+  }
 
 #footer-menu div.last {
   margin-right: 0px;
