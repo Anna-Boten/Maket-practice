@@ -1,0 +1,192 @@
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+.center,
+#top,
+#navbar,
+#wrapper-center {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #EEEEEE;
+  height: 50px;
+  color: #C60304;
+}
+
+#sitename {
+  font-size: 33px;
+  padding-left: 0px;
+}
+
+#slogan {
+  padding-top: 13px;
+  padding-right: 0px;
+}
+
+#navbar {
+  background-color: #C60304;
+  width: 100%;
+}
+
+#navbar ul {
+  padding-left: 0px;
+}
+
+#navbar li {
+  display: inline-block;
+  height: 50px;
+}
+
+#navbar a {
+  display: inline-block;
+  color: white;
+  padding: 14px 20px;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#navbar a:hover,
+a.active {
+  background-color: #7D0202;
+}
+
+#submenu .center {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#submenu li {
+  display: inline-block;
+  height: 20px;
+  color: #666666;
+}
+
+#submenu a {
+  color: #666666;
+  padding-left: 25px;
+}
+
+#submenu a:hover,
+a.active {
+  text-decoration: none;
+}
+
+#wrapper {
+  background-color: white;
+  padding: 30px;
+
+}
+
+#wrapper-center {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+#line {
+  background-color: #DDDDDD;
+  height: 20px;
+}
+
+#content h1 {
+  margin: 10px;
+  font-size: 25px;
+}
+
+#content h2 {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+#content p {
+  text-align: justify;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#left,
+#right {
+  margin-left: 20px;
+}
+
+#left h1,
+#right h1 {
+  margin: 15px 0px;
+  font-size: 17px;
+}
+
+#left p,
+#right p {
+  text-align: justify;
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+
+.right-picture {
+  margin-bottom: 20px;
+}
+
+#footer-block {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px 0px;
+}
+
+#footer-menu {
+  width: 220px;
+  margin: 9px;
+}
+
+
+#footer-menu a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 15px;
+}
+
+#footer-menu ul {
+  list-style-type: none;
+}
+
+#footer-menu li {
+  margin-bottom: 10px;
+  color: #666666;
+
+}
+
+#footer-menu a:hover,
+a.active {
+  text-decoration: underline;
+}
+
+#footer-info {
+  color: #666666;
+  text-align: center;
+}
+
+#footer-info h1 {
+  font-size: 20px;
+}
+
+#footer-info P {
+  font-size: 13px;
+  padding: 2px 0px;
+}
