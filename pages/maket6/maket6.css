@@ -1,0 +1,113 @@
+body, h1, h2, ul, ol, p{
+  margin: 0px;
+  padding: 0px;
+}
+
+#header{
+  background-color: #00813e;
+  color: white;
+  text-align: center;
+  }
+
+#header h1, h2, p{
+  font-family: Arial;
+}
+
+#header h1 {
+  font-size: 35px;
+  /* padding-top: 5px; */
+  margin-bottom: 7px;
+}
+
+#header p {
+  font-size: 20px;
+  margin-bottom: 7px;
+  }
+
+.center{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2px;
+}
+
+#price h2{
+  font-size: Arial;
+  text-align: center;
+  font-size: 27px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  }
+
+#price ol {
+  list-style-position: inside;
+  color: red;
+  font-weight: bold;
+}
+
+#price li {
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#price li span {
+  color: black;
+  font-weight: normal;
+  font-family: Arial;
+}
+
+#contacts{
+  background-color: #C60304;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#contacts h2{
+  margin-bottom: 10px;
+}
+
+#company{
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#company h2{
+  text-align: center;
+  font-size: 27px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+#company p{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#clients h2{
+  text-align: center;
+  font-size: 27px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  padding-top: 23px;
+}
+#clients{
+  background-color: #FF8040;;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#clients-items img {
+outline: 1px solid black;
+}
+
+#footer{
+  background-color: #912F00;
+  font-size: 13px;
+  text-align: center;
+  padding: 200px 0px 5px 0px;
+  color: white;
+  font-family: Arial;
+}
